@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>サウナからの脱出 — appishiwata</title>
-  <meta name="description" content="サウナ施設に閉じ込められた脱出ゲーム。手がかりを集め、ギミックを解き、出口を目指すiOSアプリ。">
+  <meta name="description" content="サウナ施設に閉じ込められた脱出ゲーム。手がかりを集め、ギミックを解き、出口を目指すiOS / Androidアプリ。">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -108,6 +108,10 @@
     .cta {
       margin-top: 28px;
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
     }
     .app-link {
       display: inline-block;
@@ -152,7 +156,7 @@
           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path d="M17 1.01L7 1c-1.1 0-1.99.9-1.99 2v18c0 1.1.89 2 1.99 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"/>
           </svg>
-          iOS
+          iOS / Android
         </span>
         <img src="../escape-sauna-icon.png" alt="サウナからの脱出のアイコン" class="app-icon" width="112" height="112">
         <h1>サウナからの脱出</h1>
@@ -172,6 +176,7 @@
       </div>
       <div class="cta">
         <a href="https://apps.apple.com/jp/app/id6812655595" class="app-link" target="_blank" rel="noopener">App Store で入手</a>
+        <a href="https://play.google.com/store/apps/details?id=com.appishiwata.escapesauna" class="app-link" target="_blank" rel="noopener">Google Play で入手</a>
       </div>
       <p class="lang-switch"><a href="../escape-sauna-en/">English</a></p>
     </section>
